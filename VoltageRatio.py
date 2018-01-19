@@ -11,7 +11,7 @@ import pandas as pd
 import os
 
 cwd = os.getcwd()
-
+#hell(o)
 arduino = serial.Serial('COM7', 9600, timeout=.1)
 thickness=float(input('Thickness of the sample (in micrometers): '))*10**(-6)
 width=float(input('Width of the sample (in centimeters): '))*10**(-2)
